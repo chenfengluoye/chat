@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/rec"
+        android:layout_margin="5dp"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/qq"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:background="#FF54E6BF"
+            android:id="@+id/recmsg"
+            android:gravity="left|center"
+            android:minHeight="40dp"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:text="你好alsodnosdnsndsdnvsknvwskdnsndvlsdbvlvasd hvlsv"
+            android:maxEms="10"
+            android:padding="5dp"
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="right">
+
+        <TextView
+            android:background="#FF54E6BF"
+            android:id="@+id/sendmsg"
+            android:gravity="left|center"
+            android:minHeight="40dp"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:maxEms="10"
+            android:text="你" />
+
+        <ImageView
+            android:src="@drawable/qq"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+</LinearLayout>
